@@ -156,7 +156,7 @@ with st.sidebar:
         api_key = st.text_input("Enter your Google API Key:", value=default_api_key, type="password")
         
         current_api_key = st.session_state.get("api_key", default_api_key)
-        model_names = ["gemini-1.5-pro", "gemini-1.5-flash", "gemini-1.0-pro"]
+        model_names = ["gemini-2.5-flash", "gemini-2.5-pro" , "gemini-1.5-pro"]
         
         if current_api_key:
             try:
