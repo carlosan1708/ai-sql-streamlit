@@ -1,0 +1,14 @@
+venv/
+.venv/
+env/
+.env/
+bin/
+lib/
+share/
+pyvenv.cfg
+*.pyc
+__pycache__/
+.pytest_cache/
+.DS_Store
+init.sql
+database/
